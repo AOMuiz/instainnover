@@ -1,18 +1,23 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet } from "react-native";
+import { StatusBar } from "expo-status-bar";
+import Main from "./src/navigation/main";
+import { NavigationContainer } from "@react-navigation/native";
+import React from "react";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-    </View>
+    <NavigationContainer>
+      <Main />
+      <StatusBar style="auto" />
+    </NavigationContainer>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
