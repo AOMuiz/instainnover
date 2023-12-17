@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import { StackScreenProps } from "@react-navigation/stack";
+import { StackNavigationProp } from "@react-navigation/stack";
 
 import styles from "./styles";
 import ProfilePicture from "../ProfilePicture";
@@ -13,10 +13,10 @@ const Story = (props) => {
     },
   } = props;
 
-  const navigation = useNavigation<StackScreenProps<HomeStackParamList>>();
+  const navigation = useNavigation<StackNavigationProp<HomeStackParamList>>();
 
   const onPress = () => {
-    navigation.navigate("StoryScreen");
+    navigation.navigate("StoryScreen", { user: props.story });
   };
 
   return (

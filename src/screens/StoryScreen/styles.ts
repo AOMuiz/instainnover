@@ -32,15 +32,15 @@ const styles = StyleSheet.create({
     marginHorizontal: hp(10),
   },
   cameraButton: {
-    width: 50,
+    width: hp(50),
     alignItems: "center",
     justifyContent: "center",
     borderWidth: 1,
     borderColor: "white",
-    borderRadius: 50,
+    borderRadius: hp(50),
   },
   messageButton: {
-    width: 50,
+    width: hp(50),
     alignItems: "center",
     justifyContent: "center",
   },
@@ -55,8 +55,8 @@ const styles = StyleSheet.create({
     borderColor: "white",
     marginHorizontal: 10,
     paddingHorizontal: 10,
-    borderRadius: 50,
-    height: 50,
+    borderRadius: hp(50),
+    height: hp(50),
   },
 });
 

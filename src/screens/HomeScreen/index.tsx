@@ -8,7 +8,7 @@ import HomeHeader from "../../components/Post/components/HomeHeader";
 
 const Home = () => {
   return (
-    <SafeAreaView style={{ backgroundColor: "black", flex: 1 }}>
+    <SafeAreaView style={styles.containner}>
       <HomeHeader />
       <FlatList
         data={posts}
@@ -21,4 +21,6 @@ const Home = () => {
 
 export default Home;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  containner: { backgroundColor: "black", flex: 1 },
+});

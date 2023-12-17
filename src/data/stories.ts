@@ -9,18 +9,18 @@ export default [
     stories: [
       {
         imageUri:
-          "https://i.insider.com/5d03aa8e6fc9201bc7002b43?width=1136&format=jpeg",
-        postedTime: "25 m",
+          "https://images.unsplash.com/photo-1682687220801-eef408f95d71?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8",
+        postedTime: "25m",
       },
       {
         imageUri:
           "https://images.unsplash.com/photo-1526512340740-9217d0159da9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
-        postedTime: "25 m",
+        postedTime: "30m",
       },
       {
         imageUri:
-          "https://lh3.googleusercontent.com/proxy/cTB66Af39yCQmn0Z5Dy9YGYG8NCTmtLVB4QzOYNMs6ejl3SpWcGK6rEsIKCDpeeetC8b5jE5iyDk-suYMRDJe5zvmfjYAmuzDG5JcKnQQ59pI9caMwYrg5aTjqoEgVzaBNH7BvUkGk8TXsqSYTutYCkuBYp6osmM",
-        postedTime: "25 m",
+          "https://images.unsplash.com/photo-1702659610398-58d3fb3f65f2?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8",
+        postedTime: "12m",
       },
     ],
     comments: {
@@ -211,8 +211,8 @@ export default [
     user: {
       id: "5",
       imageUri:
-        "https://scontent.fkiv3-1.fna.fbcdn.net/v/t31.0-1/p160x160/22256588_1932617800312085_5686197942193420542_o.jpg?_nc_cat=110&_nc_sid=dbb9e7&_nc_eui2=AeGjZbecmqwLvnlbx3STRUcixlokCBJZ6JPGWiQIElnok5b36VQxmkbd_xA74WOh5Md7TWZNOQ6TSiAdKeQf8RJ9&_nc_ohc=tq7CYqHvRYcAX_LwjFy&_nc_ht=scontent.fkiv3-1.fna&_nc_tp=6&oh=a7fda4462bbac7dcca956ac0c492e739&oe=5F40895B",
-      name: "Name",
+        "https://images.unsplash.com/photo-1701453031904-dbec6ef40984?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHx8l",
+      name: "Arthur",
     },
     stories: [
       {
@@ -243,13 +243,18 @@ export default [
     user: {
       id: "6",
       imageUri:
-        "https://scontent.fkiv3-1.fna.fbcdn.net/v/t1.0-1/p160x160/107443858_3074598385966770_1929559809312242379_n.jpg?_nc_cat=107&_nc_sid=dbb9e7&_nc_eui2=AeGuvh6y7JdJyQ_sgjEaph-zDfw2T_M-BQMN_DZP8z4FA3OG-Qkjoajvba83y0-f60PUHDPn7-GUA0e8jDoxYkRC&_nc_ohc=mmDFGHC1nLAAX8ojlCt&_nc_ht=scontent.fkiv3-1.fna&_nc_tp=6&oh=4c8509718f3e6e49cd6cf9eb163eb3fc&oe=5F42657B",
+        "https://wallpapers.com/images/high/aesthetic-cute-profile-pictures-1024-x-1280-2jl4cu0394igbz3y.webp",
       name: "Lukdsaas",
     },
     stories: [
       {
         imageUri:
           "https://i.pinimg.com/originals/0b/ac/f6/0bacf62a4bd456d02d02c6b8a5c98f67.jpg",
+        postedTime: "25 m",
+      },
+      {
+        imageUri:
+          "https://plus.unsplash.com/premium_photo-1701095037703-2df7e284326a?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8",
         postedTime: "25 m",
       },
     ],
