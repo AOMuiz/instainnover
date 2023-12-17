@@ -5,3 +5,8 @@ declare type TabNavigatorParamList = {
   Search: undefined;
   Reels: undefined;
 };
+
+declare type HomeStackParamList = {
+  HomeScreen: undefined;
+  StoryScreen: undefined;
+};

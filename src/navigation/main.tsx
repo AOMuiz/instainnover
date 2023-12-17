@@ -1,6 +1,6 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Profile from "./profile";
-import Home from "./Home";
+import HomeStack from "./Home";
 import Search from "./Search";
 import Reels from "./Reels";
 import UploadReel from "./UploadReel";
@@ -16,13 +16,14 @@ function Main() {
   return (
     <Tab.Navigator
       screenOptions={{
+        headerShown: false,
         tabBarShowLabel: false,
         tabBarStyle: { backgroundColor: "black" },
       }}
     >
       <Tab.Screen
         name="Home"
-        component={Home}
+        component={HomeStack}
         options={{
           tabBarIcon: ({ focused }) => <HomeIcon />,
         }}

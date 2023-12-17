@@ -3,8 +3,8 @@ export default [
     user: {
       id: "1",
       imageUri:
-        "https://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/s150x150/11856786_899300113457845_354988069_a.jpg",
-      name: "Vadim",
+        "https://images.unsplash.com/photo-1699519337091-8499c51d9186?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      name: "John",
     },
     stories: [
       {
@@ -23,13 +23,54 @@ export default [
         postedTime: "25 m",
       },
     ],
+    comments: {
+      count: 3,
+      data: [
+        {
+          created_time: "1440698882",
+          text: "@kashrafiq82 i dnt know what im not ready means.",
+          from: {
+            username: "el_capit4n",
+            profile_picture:
+              "https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xfp1/t51.2885-19/11056014_930580873660876_1764685772_a.jpg",
+            id: "1813181663",
+            full_name: "Aidan Shah",
+          },
+          id: "1060981586725475242",
+        },
+        {
+          created_time: "1440699089",
+          text: "@chelphill someday this boat will be called lopster",
+          from: {
+            username: "a_grillz10",
+            profile_picture:
+              "https://igcdn-photos-b-a.akamaihd.net/hphotos-ak-xpf1/t51.2885-19/10864973_677675199015449_1525007523_a.jpg",
+            id: "55897168",
+            full_name: "Adam Grillo",
+          },
+          id: "1060983319694446650",
+        },
+        {
+          created_time: "1440699117",
+          text: "Omg you're so creative I luh dat name. @a_grillz10",
+          from: {
+            username: "chelphill",
+            profile_picture:
+              "https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-19/10249235_681947635271742_1429097030_a.jpg",
+            id: "176724813",
+            full_name: "Chelsea Phillips",
+          },
+          id: "1060983558862049358",
+        },
+      ],
+    },
   },
   {
     user: {
       id: "2",
       imageUri:
-        "https://scontent.fkiv3-1.fna.fbcdn.net/v/t1.0-1/p160x160/107443858_3074598385966770_1929559809312242379_n.jpg?_nc_cat=107&_nc_sid=dbb9e7&_nc_eui2=AeGuvh6y7JdJyQ_sgjEaph-zDfw2T_M-BQMN_DZP8z4FA3OG-Qkjoajvba83y0-f60PUHDPn7-GUA0e8jDoxYkRC&_nc_ohc=mmDFGHC1nLAAX8ojlCt&_nc_ht=scontent.fkiv3-1.fna&_nc_tp=6&oh=4c8509718f3e6e49cd6cf9eb163eb3fc&oe=5F42657B",
-      name: "Lukas",
+        "https://wallpapers.com/images/high/aesthetic-cute-profile-pictures-1000-x-1333-m524zrbw7tvhvt8g.webp",
+      name: "Smith",
     },
     stories: [
       {
@@ -48,12 +89,53 @@ export default [
         postedTime: "25 m",
       },
     ],
+    comments: {
+      count: 3,
+      data: [
+        {
+          created_time: "1440699017",
+          text: "@ryan_bougenoy it's like MC... Looks dialed ✊☝🏻️",
+          from: {
+            username: "cmireau134",
+            profile_picture:
+              "https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xap1/t51.2885-19/928335_1483135971930011_1789271109_a.jpg",
+            id: "187843936",
+            full_name: "Caleb Mireau CMDESiGNS",
+          },
+          id: "1060982712570646877",
+        },
+        {
+          created_time: "1440699037",
+          text: "He's riding blue but wearing red gear.... Hmmmmm",
+          from: {
+            username: "doug.leonard.1656",
+            profile_picture:
+              "https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/s150x150/11373715_1651383711745604_72282980_a.jpg",
+            id: "1654443956",
+            full_name: "Doug Leonard",
+          },
+          id: "1060982883488534890",
+        },
+        {
+          created_time: "1440699086",
+          text: "@francois.monot  wouaaa magique ! Faudrait voir son kit déco !",
+          from: {
+            username: "maximep123",
+            profile_picture:
+              "https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-19/s150x150/11324453_1631022167183451_75613868_a.jpg",
+            id: "1541484383",
+            full_name: "maxime prudhomme",
+          },
+          id: "1060983291661422989",
+        },
+      ],
+    },
   },
   {
     user: {
       id: "3",
       imageUri:
-        "https://scontent.fkiv3-1.fna.fbcdn.net/v/t1.0-1/p160x160/101550839_2558540351026011_5343458796813418496_o.jpg?_nc_cat=100&_nc_sid=dbb9e7&_nc_eui2=AeGStRqlzx8Ffpbfczu6NNozefIpQnTPL0R58ilCdM8vRBhOrXGeOqGETI_lhHoXCUAvSLzVs6tG1zxDAtFZn4PN&_nc_ohc=mZM1p1QdLMoAX9QVenH&_nc_ht=scontent.fkiv3-1.fna&_nc_tp=6&oh=af7355936e01064d82372f3f26f70dd8&oe=5F426FFF",
+        "https://wallpapers.com/images/high/aesthetic-cute-profile-pictures-1024-x-1280-2jl4cu0394igbz3y.webp",
       name: "Alex",
     },
     stories: [
@@ -63,12 +145,41 @@ export default [
         postedTime: "25 m",
       },
     ],
+    comments: {
+      count: 3,
+      data: [
+        {
+          created_time: "1440699017",
+          text: "@ryan_bougenoy it's like MC... Looks dialed ✊☝🏻️",
+          from: {
+            username: "cmireau134",
+            profile_picture:
+              "https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xap1/t51.2885-19/928335_1483135971930011_1789271109_a.jpg",
+            id: "187843936",
+            full_name: "Caleb Mireau CMDESiGNS",
+          },
+          id: "1060982712570646877",
+        },
+        {
+          created_time: "1440699037",
+          text: "He's riding blue but wearing red gear.... Hmmmmm",
+          from: {
+            username: "doug.leonard.1656",
+            profile_picture:
+              "https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/s150x150/11373715_1651383711745604_72282980_a.jpg",
+            id: "1654443956",
+            full_name: "Doug Leonard",
+          },
+          id: "1060982883488534890",
+        },
+      ],
+    },
   },
   {
     user: {
       id: "4",
       imageUri:
-        "https://scontent.fkiv3-1.fna.fbcdn.net/v/t31.0-1/p160x160/14242257_122280314893965_2111799435851825649_o.jpg?_nc_cat=100&_nc_sid=dbb9e7&_nc_eui2=AeGs9jG5hGVcbB1C9N0UQqdbXduE6cDoPWBd24TpwOg9YIDqQWWxeE87hXgFYgD8aqOX8f7me8cCBfYci34GWHbE&_nc_ohc=CFFbdCcsaYwAX9V0Ybz&_nc_ht=scontent.fkiv3-1.fna&_nc_tp=6&oh=b2cef9552fdd53440485d2f799a320d3&oe=5F40C3D6",
+        "https://wallpapers.com/images/high/aesthetic-cute-profile-pictures-2160-x-3840-1vqwaokz4lple2io.webp",
       name: "Danil",
     },
     stories: [
@@ -78,6 +189,23 @@ export default [
         postedTime: "25 m",
       },
     ],
+    comments: {
+      count: 1,
+      data: [
+        {
+          created_time: "1440699017",
+          text: "@ryan_bougenoy it's like MC... Looks dialed ✊☝🏻️",
+          from: {
+            username: "cmireau134",
+            profile_picture:
+              "https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xap1/t51.2885-19/928335_1483135971930011_1789271109_a.jpg",
+            id: "187843936",
+            full_name: "Caleb Mireau CMDESiGNS",
+          },
+          id: "1060982712570646877",
+        },
+      ],
+    },
   },
   {
     user: {
@@ -93,6 +221,23 @@ export default [
         postedTime: "25 m",
       },
     ],
+    comments: {
+      count: 1,
+      data: [
+        {
+          created_time: "1440699017",
+          text: "@ryan_bougenoy it's like MC... Looks dialed ✊☝🏻️",
+          from: {
+            username: "cmireau134",
+            profile_picture:
+              "https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xap1/t51.2885-19/928335_1483135971930011_1789271109_a.jpg",
+            id: "187843936",
+            full_name: "Caleb Mireau CMDESiGNS",
+          },
+          id: "1060982712570646877",
+        },
+      ],
+    },
   },
   {
     user: {
@@ -108,5 +253,22 @@ export default [
         postedTime: "25 m",
       },
     ],
+    comments: {
+      count: 1,
+      data: [
+        {
+          created_time: "1440699017",
+          text: "@ryan_bougenoy it's like MC... Looks dialed ✊☝🏻️",
+          from: {
+            username: "cmireau134",
+            profile_picture:
+              "https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xap1/t51.2885-19/928335_1483135971930011_1789271109_a.jpg",
+            id: "187843936",
+            full_name: "Caleb Mireau CMDESiGNS",
+          },
+          id: "1060982712570646877",
+        },
+      ],
+    },
   },
 ];

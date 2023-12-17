@@ -6,8 +6,6 @@ import styles from "./styles";
 import stories from "../../data/stories";
 
 const Stories = () => {
-  //   const [stories, setStories] = useState([]);
-
   return (
     <FlatList
       data={stories}

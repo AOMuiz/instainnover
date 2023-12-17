@@ -1,15 +1,16 @@
-import { StyleSheet, Text, View } from "react-native";
-import React from "react";
-import Stories from "../components/UserStoriesPreview";
+import { createStackNavigator } from "@react-navigation/stack";
+import HomeScreen from "../screens/HomeScreen";
+import StoryScreen from "../screens/StoryScreen";
 
-const Home = () => {
+const Stack = createStackNavigator<HomeStackParamList>();
+
+const HomeStack = () => {
   return (
-    <View>
-      <Stories />
-    </View>
+    <Stack.Navigator screenOptions={{ headerShown: false }}>
+      <Stack.Screen name="HomeScreen" component={HomeScreen} />
+      <Stack.Screen name="StoryScreen" component={StoryScreen} />
+    </Stack.Navigator>
   );
 };
 
-export default Home;
-
-const styles = StyleSheet.create({});
+export default HomeStack;

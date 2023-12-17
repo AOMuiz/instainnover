@@ -12,7 +12,7 @@ const ProfilePicture = ({ uri, size = 70 }) => (
   >
     <Image
       source={{
-        uri: "https://images.unsplash.com/photo-1699519337091-8499c51d9186?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        uri,
       }}
       style={[styles.image, { width: hp(size), height: hp(size) }]}
     />

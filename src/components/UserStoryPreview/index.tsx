@@ -1,10 +1,10 @@
 import React from "react";
 import { Text, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+import { StackScreenProps } from "@react-navigation/stack";
 
 import styles from "./styles";
 import ProfilePicture from "../ProfilePicture";
-import { BottomTabScreenProps } from "@react-navigation/bottom-tabs";
 
 const Story = (props) => {
   const {
@@ -13,11 +13,10 @@ const Story = (props) => {
     },
   } = props;
 
-  const navigation =
-    useNavigation<BottomTabScreenProps<TabNavigatorParamList>>();
+  const navigation = useNavigation<StackScreenProps<HomeStackParamList>>();
 
   const onPress = () => {
-    navigation.navigate("Reels");
+    navigation.navigate("StoryScreen");
   };
 
   return (
