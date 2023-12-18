@@ -1,9 +1,9 @@
-import React from 'react';
-import { View } from 'react-native';
+import React from "react";
+import { View } from "react-native";
 
-import Header from './components/Header';
-import Body from './components/Body';
-import Footer from './components/Footer';
+import Header from "./components/Header";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
 
 const Post = ({ post }) => (
   <View>
@@ -13,8 +13,9 @@ const Post = ({ post }) => (
       likesCount={post.likes}
       caption={post.caption}
       postedAt={post.createdAt}
+      comment={post.comments[0]}
     />
   </View>
-)
+);
 
 export default Post;

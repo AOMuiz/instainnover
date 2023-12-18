@@ -6,7 +6,7 @@ import AddIcon from "../../../icons/add";
 import Instagram from "../../../icons/instaIcon";
 import Messangericon from "../../../icons/messanger";
 import HeartIcon from "../../../icons/heart";
-import { Entypo } from "@expo/vector-icons";
+import { Entypo, AntDesign } from "@expo/vector-icons";
 
 const Header = () => {
   return (
@@ -17,7 +17,7 @@ const Header = () => {
       </View>
 
       <View style={styles.icons}>
-        <HeartIcon />
+        <AntDesign name="hearto" size={25} color={"white"} />
         <AddIcon />
         <Messangericon />
       </View>

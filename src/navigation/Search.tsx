@@ -1,12 +1,15 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet } from "react-native";
 import React from "react";
-import { SafeAreaView } from "react-native-safe-area-context";
+import SearchScreen from "../screens/SearchScreen";
+import { createStackNavigator } from "@react-navigation/stack";
+
+const Stack = createStackNavigator();
 
 const Search = () => {
   return (
-    <SafeAreaView>
-      <Text>Search</Text>
-    </SafeAreaView>
+    <Stack.Navigator screenOptions={{ headerShown: false }}>
+      <Stack.Screen name="SearchScreen" component={SearchScreen} />
+    </Stack.Navigator>
   );
 };
 

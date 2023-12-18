@@ -1,15 +1,10 @@
-import { StyleSheet, Text, View, ImageBackground } from "react-native";
+import { Text, View, ImageBackground } from "react-native";
 import React from "react";
 import { hp } from "../../utils/dimension";
-import {
-  Feather,
-  Entypo,
-  AntDesign,
-  Fontisto,
-  Ionicons,
-} from "@expo/vector-icons";
+import { Feather, Entypo, AntDesign, Ionicons } from "@expo/vector-icons";
 import ProfilePicture from "../../components/ProfilePicture";
 import { CommentReel } from "../../components/icons/commentIcon";
+import { styles } from "./styles";
 
 const ReelsScreen = () => {
   return (
@@ -77,18 +72,7 @@ const ReelsScreen = () => {
                 position: "relative",
               }}
             >
-              <View
-                style={{
-                  backgroundColor: "black",
-                  right: -12,
-                  top: 2.77,
-                  alignItems: "center",
-                  justifyContent: "center",
-                  borderRadius: hp(15),
-                  height: hp(20),
-                  width: hp(20),
-                }}
-              >
+              <View style={styles.leftMusic}>
                 <Feather name="music" size={10} color="white" />
               </View>
             </View>
@@ -100,55 +84,3 @@ const ReelsScreen = () => {
 };
 
 export default ReelsScreen;
-
-const styles = StyleSheet.create({
-  container: { height: "100%", flex: 1 },
-  image: {
-    flex: 1,
-    resizeMode: "cover",
-    justifyContent: "space-between",
-  },
-  topContainer: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    paddingTop: hp(25),
-    paddingHorizontal: hp(20),
-  },
-  userInfo: {
-    flexDirection: "row",
-    alignItems: "center",
-    marginTop: hp(10),
-  },
-  userName: {
-    color: "white",
-    fontWeight: "700",
-    fontSize: hp(12),
-  },
-  follow: {
-    color: "white",
-    padding: hp(7),
-    fontSize: hp(12),
-    borderRadius: 8,
-    borderColor: "white",
-    borderWidth: 1,
-  },
-  caption: {
-    color: "white",
-  },
-  music: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 7,
-    marginTop: hp(15),
-  },
-  bottomContainer: {
-    marginBottom: hp(20),
-    marginHorizontal: hp(16),
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "flex-end",
-  },
-  bottomLeft: { gap: 7 },
-  bottomRight: { rowGap: 15, alignItems: "center" },
-});

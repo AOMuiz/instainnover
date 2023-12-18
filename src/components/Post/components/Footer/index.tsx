@@ -3,8 +3,9 @@ import { View, Text, TouchableWithoutFeedback } from "react-native";
 import { FontAwesome, Ionicons, AntDesign, Fontisto } from "@expo/vector-icons";
 
 import styles from "./styles";
+import { CommnetHome } from "../../../icons/commentIcon";
 
-const Footer = ({ likesCount: likesCountProp, caption, postedAt }) => {
+const Footer = ({ likesCount: likesCountProp, caption, postedAt, comment }) => {
   const [isLiked, setIsLike] = useState(false);
   const [likesCount, setLikesCount] = useState(0);
 
@@ -30,7 +31,7 @@ const Footer = ({ likesCount: likesCountProp, caption, postedAt }) => {
               <AntDesign name="hearto" size={25} color={"white"} />
             )}
           </TouchableWithoutFeedback>
-          <Fontisto name="comment" size={25} color={"white"} />
+          <CommnetHome />
           <Ionicons name="paper-plane-outline" size={25} color={"white"} />
         </View>
         <FontAwesome name="bookmark-o" size={25} color={"white"} />
@@ -38,7 +39,14 @@ const Footer = ({ likesCount: likesCountProp, caption, postedAt }) => {
 
       <Text style={styles.likes}>{likesCount} Likes</Text>
       <Text style={styles.caption}>{caption}</Text>
-      <Text style={styles.postedAt}>{new Date(postedAt).toLocaleString()}</Text>
+      {/* <Text style={styles.postedAt}>{new Date(postedAt).toLocaleString()}</Text> */}
+      <View style={styles.comment}>
+        <Text style={styles.commentUser}>{comment?.user}</Text>
+        <Text style={styles.commentText} numberOfLines={2}>
+          {comment?.comment}
+        </Text>
+      </View>
+      <Text style={{ color: "#6E6E6E", margin: 3 }}>More</Text>
     </View>
   );
 };

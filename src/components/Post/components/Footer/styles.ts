@@ -27,6 +27,18 @@ const styles = StyleSheet.create({
     color: "#8c8c8c",
     margin: 3,
   },
+  comment: {
+    flexDirection: "row",
+    gap: 4,
+    margin: 3,
+  },
+  commentUser: {
+    fontWeight: "500",
+    color: "white",
+  },
+  commentText: {
+    color: "white",
+  },
 });
 
 export default styles;
