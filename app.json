@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "459d775e-943a-45ae-9de6-a8f3ded67cc0"
+      }
+    },
+    "android": {
+      "package": "com.aomuiz.intainnover"
+    }
+  }
+}
